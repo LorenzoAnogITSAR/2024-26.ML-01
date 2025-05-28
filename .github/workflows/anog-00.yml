@@ -13,7 +13,7 @@ jobs:
       - run: ls -la
       - run: pwd
       - run : env
-      - uses: action/checkout@v4
+      - uses: actions/checkout@v4
         with:
           sparse-checkout: |
             anog
