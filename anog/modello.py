@@ -52,4 +52,4 @@ MAE: {mae}
 MAPE: {mape}
 """)
 
-joblib.dump(pipe, "logistic_model.joblib")
+joblib.dump(pipe, "modello_regressione.joblib")
