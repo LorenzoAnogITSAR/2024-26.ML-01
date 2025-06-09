@@ -28,3 +28,11 @@ jobs:
               with:
                 name: modello-ml
                 path: anog/modello_regressione.joblib
+
+            - uses: actions/checkout@v4
+              with:
+                sparse-checkout: |
+                  .github
+                  anog
+                  test_app.py
+                  app.py
